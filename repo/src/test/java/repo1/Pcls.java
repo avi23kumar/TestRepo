@@ -7,6 +7,8 @@ public class Pcls {
 	public void maintest()
 	{
 		System.out.println("print kumar");
+		String k = System.getProperty("url");
+		System.out.println(k);
 	}
 	@Test
 	public void ittest() {
